@@ -1,0 +1,12 @@
+#!/usr/bin/python3
+
+import argparse
+from src.terminal import *
+
+
+p = argparse.ArgumentParser("A prompt application for reading papers from ArXiV")
+args = p.parse_args()
+
+console = Console()
+console.update()
+console.run()
